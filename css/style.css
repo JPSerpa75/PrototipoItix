@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 body{
@@ -12,24 +12,99 @@ header{
     background: linear-gradient(90deg, #2850D1 0%, #2E59E2 100%);
     display: flex;
     align-items: center;
-    height: 6em;
-    justify-content: flex-start;
-    gap: 30em;
+    padding: 1.5em;
+    height: 4em;
+}
+
+img{
+    width: 2.5em;
+}
+
+.menu{
+    width: 100%;
+    margin-left: -2.5em;
 }
 
 .menu ul{
     display: flex;
+    justify-content: center;
     list-style: none;
-    gap: 1.875em;
-    flex-grow: 2;
+    gap: 1em;
 }
-    .menu ul li{
-        padding: 0.5em;
-        background-color: #ffffff;
-        border-radius: 0.2em 1em;
-    }
     .menu ul li a{
         text-decoration: none;
-        gap: 1.875em;
-        color: #2850D1;
+        gap: 1em;
+        color: #ffffff;
+        border-radius: 0.3em 1em;
+        padding: 0.5em;
     }
+
+    .menu ul li a:hover{
+        background-color: #fff;
+        color: #2850D1;
+        transition: 0.2s;
+    }
+.section-1{
+    background-color: #E5E5E5;
+    padding: 1em 10em;
+}
+
+.section-2{
+    background-color: #2850D1;
+    padding: 1em 10em;
+}
+
+.section-1 article{
+    padding: 2em 0em;
+}
+
+.jobs{
+    display: flex;
+    gap: 2em;
+    margin-bottom: 4em;
+}
+
+.job{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/planodefundo.png");
+    background-position: -10em;
+    background-size: cover;
+    padding: 1em;
+    border-radius: 1.5em;
+    color: #fff;
+    box-shadow: 10px 10px 40px 5px rgba(0, 0, 0, 0.4);
+    width: 100%;
+
+}
+    .job h3{
+        margin-top: 12em;
+    }
+    .job p{
+        margin: 1em 0;
+    }
+    .job button{
+        width: 100%;
+        padding: 1em;
+        border-radius: 0.3em 1.5em;
+        background-color: #2850D1;
+        margin: 0.5em 0;
+        color: #fff;
+        border: none;
+        font-weight: bold;
+        font-size: 1em;
+    }
+    .job button:hover{
+        background-color: #102156;
+        transition: 0.2s;
+    }
+
+.section-2 article{
+    color: #fff;
+    text-align: right;
+    padding: 2.5em 0;
+}
+
+#inputs{
+    background-color: #F9F9F9;
+    padding: 3em;
+    border-radius: 1em 3em;
+}

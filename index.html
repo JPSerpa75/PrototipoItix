@@ -8,12 +8,12 @@
     <meta name="description" content="Saiba mais sobre a Itix">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <a href="#"><img src="assets/images/logo.png" alt="logo Itix"></a> 
+        <a href="index.html"><img src="assets/images/logo.png" alt="logo Itix"></a> 
         <nav class="menu">
             <ul>
                 <li> <a href="index.html">Home</a> </li>
@@ -23,82 +23,83 @@
         </nav>
     </header>
     <main>
-        <section class="section 1">
-            <article>
-                <h2>Oportunidade para você!</h2>
-                <p>
-                    Dê uma olhada nas vagas que temos 
-                    disponíveis e venha trabalhar com a gente ;D
-                </p>
-            </article>
-            <aside>
-                <div>
-                    <div>
-                        <h3>Desenvolvedor Java</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, 
-                            consectetur adipiscing elit. Praesent purus...
-                        </p>
+            <section class="section-1">
+                <article>
+                    <h2>Oportunidade para você!</h2>
+                    <p>
+                        Dê uma olhada nas vagas que temos 
+                        disponíveis e venha trabalhar com a gente ;D
+                    </p>
+                </article>
+                <aside class="jobs">
+                    <div class="job">
+                        <div>
+                            <h3>Desenvolvedor Java</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, 
+                                consectetur adipiscing elit. Praesent purus...
+                            </p>
+                        </div>
+                        <button>Veja mais</button>
                     </div>
-                    <button>Veja mais</button>
-                </div>
-                <div>
-                    <div>
-                        <h3>Desenvolvedor Java</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, 
-                            consectetur adipiscing elit. Praesent purus...
-                        </p>
+                    <div class="job">
+                        <div>
+                            <h3>Desenvolvedor Java</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, 
+                                consectetur adipiscing elit. Praesent purus...
+                            </p>
+                        </div>
+                        <button>Veja mais</button>
                     </div>
-                    <button>Veja mais</button>
-                </div>
-                <div>
-                    <div>
-                        <h3>Desenvolvedor Java</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, 
-                            consectetur adipiscing elit. Praesent purus...
-                        </p>
+                    <div class="job">
+                        <div>
+                            <h3>Desenvolvedor Java</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, 
+                                consectetur adipiscing elit. Praesent purus...
+                            </p>
+                        </div>
+                        <button>Veja mais</button>
                     </div>
-                    <button>Veja mais</button>
-                </div>
-            </aside>
-        </section>
-        <section class="section 2">
-            <article>
-                <h2 id="contato">Contato</h2>
-                <p>
-                    Se precisar de alguma informação 
-                    adicional, sinta-se à vontade para falar com a gente ;)
-                </p>
-            </article>
-            <form action="get" method="post" id="form">
-                <div id="inputs">
-                    <div>
-                        <label for="name">Nome*</label>
-                        <input type="tel" name="name" id="name" required placeholder="Informe seu nome">
+                </aside>
+            </section>
+            <section class="section-2">
+                <article>
+                    <h2 id="contato">Contato</h2>
+                    <p>
+                        Se precisar de alguma informação 
+                        adicional, sinta-se à vontade para falar com a gente ;)
+                    </p>
+                </article>
+                <form action="get" method="post" id="form">
+                    <div id="inputs">
+                        <div>
+                            <label for="name">Nome*</label>
+                            <input type="tel" name="name" id="name" required placeholder="Informe seu nome">
+                        </div>
+                        <div>
+                            <label for="lastname">Sobrenome*</label>
+                            <input type="text" name="lastname" id="lastname" required placeholder="Informe seu sobrenome">
+                        </div>
+                        <div>
+                            <label for="email">Email*</label>
+                            <input type="email" name="email" id="email" required placeholder="Informe seu email">
+                        </div>
+                        <div>
+                            <label for="tel">Telefone</label>
+                            <input type="tel" name="tel" id="tel" placeholder="Informe seu telefone">
+                        </div>
+                        <div>
+                            <label for="message">Mensagem*</label>
+                            <input type="text" name="message" id="message" required placeholder="Manda aí a sua mensagem pra gente ;)">
+                        </div>
                     </div>
-                    <div>
-                        <label for="lastname">Sobrenome*</label>
-                        <input type="text" name="lastname" id="lastname" required placeholder="Informe seu sobrenome">
-                    </div>
-                    <div>
-                        <label for="email">Email*</label>
-                        <input type="email" name="email" id="email" required placeholder="Informe seu email">
-                    </div>
-                    <div>
-                        <label for="tel">Telefone</label>
-                        <input type="tel" name="tel" id="tel" placeholder="Informe seu telefone">
-                    </div>
-                    <div>
-                        <label for="message">Mensagem*</label>
-                        <input type="text" name="message" id="message" required placeholder="Manda aí a sua mensagem pra gente ;)">
-                    </div>
-                </div>
-                <button>Enviar mensagem</button>
-            </form>
-            
-        </section>
+                    <button>Enviar mensagem</button>
+                </form>         
+            </section>
+
+        
     </main>
     <footer>
         <img src="assets/images/logo-nome.png" alt="Logo da Itix">
