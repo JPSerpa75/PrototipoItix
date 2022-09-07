@@ -234,3 +234,66 @@ footer{
     }
 
  
+@media screen and (max-width: 948px) {
+    .jobs{
+        display: flex;
+        gap: 2em;
+        margin-bottom: 4em;
+        flex-wrap: wrap;
+    }
+    .job{
+        background-position: 0em;   
+    }
+    .section-1{
+        padding: 1em 7em;
+    }
+    
+    .section-2{
+        padding: 1em 7em;
+    }
+    .section-3{
+        padding: 1em 7em;
+    }
+}
+@media screen and (max-width: 768px){
+    .section-1{
+        padding: 1em 3em;
+    }
+    
+    .section-2{
+        padding: 1em 3em;
+    }
+    .section-3{
+        padding: 1em 3em;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .section-1{
+        padding: 2em;
+    }
+    
+    .section-2{
+        padding: 2em;
+    }
+    .section-3{
+        padding: 2em;
+    }
+    .jobs{
+        display: flex;
+        gap: 2em;
+        margin-bottom: 4em;
+        flex-wrap: wrap;
+    }
+    .rodape{
+        flex-wrap: wrap;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+    .cards img{
+        width: 100%;
+        border-radius: 0.5em 2em 0 0;
+    }
+}
