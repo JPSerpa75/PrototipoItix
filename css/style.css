@@ -39,6 +39,14 @@ header{
         padding: 0.5em;
     }
 
+    .menu ul li:first-child a{
+        background-color: #fff;
+        color: #2850D1;
+        transition: 0.2s;
+        font-weight: bold;
+    }
+    
+
     .menu ul li a:hover{
         background-color: #fff;
         color: #2850D1;
