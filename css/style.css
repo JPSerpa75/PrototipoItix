@@ -6,6 +6,8 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    width: 100%;
+    background-color: #E5E5E5;
 }
 
 header{
@@ -55,19 +57,25 @@ header{
     }
     
 .section-1{
-    background-color: #E5E5E5;
-    padding: 1em 10em;
+    width: 80%;
+    margin: auto;
 }
 
-.section-2{
+#section-2{
     background-color: #2850D1;
-    padding: 1em 10em;
+    padding-bottom: 2em;
+    width: 100%;
 }
 
-.section-1 article{
+.section-content{
+    width: 80%;
+    margin: auto;
+}
+
+.section-content article{
     padding: 2em 0em;
 }
-    .section-1 article P{
+    .section-content article P{
        color: #999999;
     }
 
@@ -114,13 +122,13 @@ header{
         transition: 0.2s;
     }
 
-.section-2 article{
+.section-content article{
     color: #fff;
     text-align: right;
     padding: 2.5em 0;
     width: 100%;
 }
-    .section-2 article p{
+    .section-content article p{
         color: rgba(255, 255, 255, 0.49);
     }
 
@@ -225,6 +233,10 @@ footer{
         padding: 0.5em 0;
         flex-grow: 1;
         color: #737373;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
     .cards .card div{
         display: flex;
