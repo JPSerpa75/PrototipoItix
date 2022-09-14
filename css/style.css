@@ -59,6 +59,7 @@ header{
 .section-1{
     width: 80%;
     margin: auto;
+    padding: 1em 0 2em 0;
 }
 
 #section-2{
@@ -72,10 +73,10 @@ header{
     margin: auto;
 }
 
-.section-content article{
+.section-1 article{
     padding: 2em 0em;
 }
-    .section-content article P{
+    .section-1 article P{
        color: #999999;
     }
 
