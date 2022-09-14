@@ -93,6 +93,10 @@ header{
     }
     .job p{
         margin: 1em 0;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
     }
     .job button{
         width: 100%;
@@ -215,11 +219,12 @@ footer{
         flex-direction: column;
         justify-content: center;
     }
-    .cards .card .content{
+
+
+    .cards .card p.content{
         padding: 0.5em 0;
         flex-grow: 1;
         color: #737373;
-        
     }
     .cards .card div{
         display: flex;
